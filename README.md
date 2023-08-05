@@ -58,28 +58,28 @@ The API structure is divided into three main endpoints: Users, Products, and Ord
 
 1. Users Endpoint:
    - GET /users: Returns all users in the system.
-   - GET /users/:id: Returns the specified user by ID.
-   - GET /users/:id/orders: Returns all orders associated with the specified user.
+   - GET /users/:id : Returns the specified user by ID.
+   - GET /users/:id/orders : Returns all orders associated with the specified user.
    - POST /users: Creates a new user and returns the new object.
-   - PATCH /users/:id: Updates fields on the specified user and returns the updated object.
-   - DELETE /users/:id: Deletes the specified user.
+   - PATCH /users/:id : Updates fields on the specified user and returns the updated object.
+   - DELETE /users/:id : Deletes the specified user.
 
 2. Products Endpoint:
    - GET /products: Returns all products in the system.
-   - GET /products/:id: Returns the specified product by ID.
+   - GET /products/:id : Returns the specified product by ID.
    - GET /products/:id/orders: Returns all orders associated with the specified product.
    - POST /products: Creates a new product and returns the new object.
-   - PATCH /products/:id: Updates fields on the specified product and returns the updated object.
-   - DELETE /products/:id: Deletes the specified product.
+   - PATCH /products/:id : Updates fields on the specified product and returns the updated object.
+   - DELETE /products/:id : Deletes the specified product.
 
 3. Orders Endpoint:
    - GET /orders: Returns all orders in the system.
-   - GET /orders/:id: Returns the specified order by ID.
+   - GET /orders/:id : Returns the specified order by ID.
    - GET /orders/:id/products: Returns all products associated with the specified order.
    - GET /orders/:id/user: Returns the user associated with the specified order.
    - POST /orders: Creates a new order and returns the new object.
-   - PATCH /orders/:id: Updates fields on the specified order and returns the updated object.
-   - DELETE /orders/:id: Deletes the specified order.
+   - PATCH /orders/:id : Updates fields on the specified order and returns the updated object.
+   - DELETE /orders/:id : Deletes the specified order.
 
 # How to Run in Local
 
