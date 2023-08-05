@@ -81,10 +81,6 @@ The API structure is divided into three main endpoints: Users, Products, and Ord
    - PATCH /orders/:id: Updates fields on the specified order and returns the updated object.
    - DELETE /orders/:id: Deletes the specified order.
 
-# List API Requests and Responses
-
-For the complete API request and response examples, please refer to the preferred format gist provided above.
-
 # How to Run in Local
 
 To run the API locally, follow these steps:
